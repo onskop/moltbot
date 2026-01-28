@@ -4,7 +4,7 @@
     "host": "0.0.0.0",  // Listen on all interfaces for cloud access (instead of localhost)
     "auth": {
       "mode": "token",  // Or "password" for simple pass; requires approval for connections
-      "token": "sdf4654fd6sd4re64s54t6e4r3sd4c3sd4r7WQ6q4sds6s5g4gf6k7u67tjn1hgbn4+"  // Make this long/random; used for UI/access
+      "token": "${MOLTBOT_AUTH_TOKEN}"  // Make this long/random; used for UI/access
     },
     "tailscale": {
       "mode": "off"  // Set to "serve" for private Tailscale access, or "funnel" for public with auth
